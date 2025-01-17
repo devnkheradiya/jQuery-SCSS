@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website using JQuery</title>
+    <script src="./jquery/jquery-3.7.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./jquery/jquery.bxslider.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="Content-Security-Policy" content="
+          default-src 'self'; 
+          script-src 'self'; 
+          style-src 'self'; 
+          img-src 'self' data:; 
+          object-src 'none'; 
+          base-uri 'self'; 
+          form-action 'self';">
+</head>
+
+<body>
+    <header class="container">
+        <nav class="header-main">
+            <div class="header-main__logo">
+                <img src="./images/logo.png" alt="logo">
+            </div>
+            <ul class="header-main__links">
+                <li class="header-main__links-link">
+                    <a href="#">Retail</a>
+                </li>
+                <li class="header-main__links-link">
+                    <a href="#">Sme</a>
+                </li>
+                <li class="header-main__links-link">
+                    <a href="#">Corporate</a>
+                </li>
+                <li class="header-main__links-link">
+                    <a href="#">About Us</a>
+                </li>
+                <li class="header-main__links-link">
+                    <a href="#">Covid 19</a>
+                </li>
+                <li class="header-main__links-link">
+                    <a href="#">Campgains</a>
+                </li>
+            </ul>
+            <div class="header-main__right-elements">
+                <div class="icon-wrapper">
+                    <img src="./images/search.png" alt="search-icon">
+                </div>
+                <div class="button button--primary button--primary--header">
+                    <a href="#">Service</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="">
+            <div class="banner-wrapper">
+                <div class="banner-wrapper-main">
+                    <div class="banner-wrapper-main__left-content">
+                        <h1>
+                            Chase Your Dream with us
+                        </h1>
+                        <p>
+                            The Harder you work for something, the greater you'll feel when you achieve it.
+                        </p>
+                        <div class="button button--primary">
+                            <a href="#" class="">Apply online</a>
+                        </div>
+                        <div class="button button--secondary">
+                            <a href="#" class="">loan calculator</a>
+                        </div>
+                        <div class="banner-wrapper-main__left-content-connect">
+                            <div class="call">
+                                <img src="./images/call.png" alt="call">
+                                <span>16519</span>
+                            </div>
+                            <div class="social-icon">
+                                <img src="./images/facebook.png" alt="facebook">
+                                <img src="./images/youtube.png" alt="youtube">
+                                <img src="./images/linkdin.png" alt="linkdin">
+                                <img src="./images/instagram.png" alt="instagram">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-wrapper-main__right-content">
+                        <ul class="bxslider-main" id="slider1">
+                            <li><img src="./images/family.png" alt="family"></li>
+                            <li><img src="./images/family.png" alt="family"></li>
+                            <li><img src="./images/family.png" alt="family"></li>
+                            <li><img src="./images/family.png" alt="family"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="banner"></div>
+        </section>
+
+        <section class="container">
+            <div class="heading-main">
+                <h2>Creating Extraoridnary Customer Experience</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium esse doloremque quisquam
+                    voluptates quas. Laboriosam?</p>
+            </div>
+            <div>
+                <div class="row g-md-5">
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-1">
+                        <div>
+                            <div>
+                                <img src="./images/circlelayer.png" alt="integrity">
+                            </div>
+                            <div>
+                                <h4>
+                                    Integrity
+                                </h4>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, similique?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-1">
+                        <div>
+                            <div>
+                                <img src="./images/Scenery.png" alt="integrity">
+                            </div>
+                            <div>
+                                <h4>
+                                    Demonstrate
+                                </h4>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, similique?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-1">
+                        <div>
+
+                            <div>
+                                <img src="./images/diversity.png" alt="integrity">
+                            </div>
+                            <div>
+                                <h4>
+                                    Diversity
+                                </h4>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, similique?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-1">
+                        <div>
+
+                            <div>
+                                <img src="./images/userarrows.png" alt="integrity">
+                            </div>
+                            <div>
+                                <h4>
+                                    Teamwork
+                                </h4>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, similique?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-1">
+                        <div>
+
+                            <div>
+                                <img src="./images/circlelayer.png" alt="integrity">
+                            </div>
+                            <div>
+                                <h4>
+                                    Collaboration
+                                </h4>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, similique?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-1">
+                        <div>
+
+                            <div>
+                                <img src="./images/Rocket.png" alt="integrity">
+                            </div>
+                            <div>
+                                <h4>
+                                    Technology
+                                </h4>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, similique?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-1">
+                        <div>
+                            <div>
+                                <img src="./images/bag.png" alt="integrity">
+                            </div>
+                            <div>
+                                <h4>
+                                    Corporate
+                                </h4>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, similique?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-1">
+                        <div>
+                            <div>
+                                <img src="./images/cube.png" alt="integrity">
+                            </div>
+                            <div>
+                                <h4>
+                                    Digital
+                                </h4>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, similique?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="heading-main">
+                <h3>Business Partner</h3>
+            </div>
+            <div class="slider-wrapper">
+                <ul id="bxslider">
+                    <li><img src="./images/westin.png" alt="westin"></li>
+                    <li><img src="./images/summit.png" alt="summit"></li>
+                    <li><img src="./images/holcim.png" alt="holcim"></li>
+                    <li><img src="./images/etv.png" alt="etv"></li>
+                    <li><img src="./images/westin.png" alt="westin"></li>
+                    <li><img src="./images/summit.png" alt="summit"></li>
+                    <li><img src="./images/etv.png" alt="etv"></li>
+                    <li><img src="./images/holcim.png" alt="holcim"></li>
+                    <li><img src="./images/etv.png" alt="etv"></li>
+                    <li><img src="./images/westin.png" alt="westin"></li>
+                    <li><img src="./images/summit.png" alt="summit"></li>
+                    <li><img src="./images/holcim.png" alt="holcim"></li>
+                    <li><img src="./images/etv.png" alt="etv"></li>
+                    <li><img src="./images/westin.png" alt="westin"></li>
+                    <li><img src="./images/westin.png" alt="westin"></li>
+                    <li><img src="./images/holcim.png" alt="holcim"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="container">
+            <div class="ipdc-wrapper">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                        <div class="glance-image-wrapper">
+                            <img src="./images/glance.png" alt="IPDC-at-a-glance">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                        <div class="ipdc-wrapper__content">
+                            <h4>idpc at a glance</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi
+                                exercitationem, magnam fugiat dicta cum recusandae nam nostrum repudiandae laboriosam
+                                veniam voluptatum reprehenderit quaerat nisi consequuntur illo tempora reiciendis illum
+                                deleniti debitis esse. Et nostrum aspernatur animi ex rerum quisquam esse cupiditate! In
+                                tempora rem, quos, optio eveniet neque iste velit corrupti laudantium nam doloremque,
+                                ipsam qui doloribus quisquam iure illo consectetur laborum sapiente ullam deserunt.
+                                Suscipit eveniet voluptas velit non ex assumenda deserunt dolorum explicabo quaerat.</p>
+                            <div class="ipdc-wrapper__content-link">
+                                <a href="/" alt="Read more">Read More <img src="./images/right arrow.png"
+                                        alt="right-arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="heading-main">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reiciendis quisquam voluptas.</p>
+            </div>
+            <div class="service-content">
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                        <div class="service-content__main">
+                            <div class="service-content__main-img-wrapper">
+                                <img src="./images/saving.png" alt="">
+                            </div>
+                            <div class="service-content__main-content">
+                                <h4>ipdc saving schemes</h4>
+                                <img src="./images/right arrow.png" alt="right-arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                        <div class="service-content__main">
+                            <div class="service-content__main-img-wrapper">
+                                <img src="./images/personalloan.png" alt="">
+                            </div>
+                            <div class="service-content__main-content">
+                                <h4>Ipdc personal loan</h4>
+                                <img src="./images/right arrow.png" alt="right-arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                        <div class="service-content__main">
+                            <div class="service-content__main-img-wrapper">
+                                <img src="./images/depositscheme.png" alt="">
+                            </div>
+                            <div class="service-content__main-content">
+                                <h4>Ipdc deposit schemes</h4>
+                                <img src="./images/right arrow.png" alt="right-arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                        <div class="service-content__main">
+                            <div class="service-content__main-img-wrapper">
+                                <img src="./images/autoloan.png" alt="">
+                            </div>
+                            <div class="service-content__main-content">
+                                <h4>ipdc auto loan</h4>
+                                <img src="./images/right arrow.png" alt="right-arrow">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="heading-main">
+                <h2>Our best results for the year</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore distinctio reprehenderit
+                    repudiandae earum!</p>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6">
+                        <div>
+                            <p> 57.6<span>bn</span></p>
+                            <p>loan portfolio</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6">
+                        <div>
+                            <p> 57.6<span>bn</span></p>
+                            <p>loan portfolio</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6">
+                        <div>
+                            <p> 57.6<span>bn</span></p>
+                            <p>loan portfolio</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6">
+                        <div>
+                            <p> 57.6<span>bn</span></p>
+                            <p>loan portfolio</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6">
+                        <div>
+                            <p> 57.6<span>bn</span></p>
+                            <p>loan portfolio</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6">
+                        <div>
+                            <p> 57.6<span>bn</span></p>
+                            <p>loan portfolio</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6">
+                        <div>
+                            <p> 57.6<span>bn</span></p>
+                            <p>loan portfolio</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3 col-md-3 col-sm-6">
+                        <div>
+                            <p> 57.6<span>bn</span></p>
+                            <p>loan portfolio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="newsletter-wrapper">
+                <div class="heading-main">
+                    <h2>
+                        Newsletter
+                    </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda maxime odit tempora neque
+                        saepe.
+                    </p>
+                </div>
+                <div class="newsletter-wrapper__content">
+                    <input type="email" name="" id="" placeholder="john@example.com">
+                    <div class="button button--primary button--primary--header">
+                        <button type="submit" class="">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+        <div class="footer">
+            <div class="footer__about">
+                <div>
+                    <h4>
+                        About the company
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ab dicta sunt omnis commodi a
+                        officia explicabo in aspernatur tempore!</p>
+                    <div class="social-icon">
+                        <img src="./images/facebook.png" alt="facebook">
+                        <img src="./images/youtube.png" alt="youtube">
+                        <img src="./images/linkdin.png" alt="linkdin">
+                        <img src="./images/instagram.png" alt="instagram">
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>
+                    Products
+                </h4>
+                <ul class="footer-links__link">
+                    <li><a href="#">CSR Activities</a></li>
+                    <li> <a href="#">Green Banking</a> </li>
+                    <li> <a href="#">News</a></li>
+                    <li> <a href="#">Ongoing Campgains</a></li>
+                    <li><a href="#">Updates</a> </li>
+                </ul>
+            </div>
+
+
+            <div class="footer-links">
+                <h4>
+                    Products
+                </h4>
+                <ul class="footer-links__link">
+                    <li><a href="#">CSR Activities</a></li>
+                    <li> <a href="#">Green Banking</a> </li>
+                    <li> <a href="#">News</a></li>
+                    <li> <a href="#">Ongoing Campgains</a></li>
+                    <li><a href="#">Updates</a> </li>
+                </ul>
+            </div>
+
+
+            <div class="footer-links">
+                <h4>
+                    Products
+                </h4>
+                <ul class="footer-links__link">
+                    <li><a href="#">CSR Activities</a></li>
+                    <li> <a href="#">Green Banking</a> </li>
+                    <li> <a href="#">News</a></li>
+                    <li> <a href="#">Ongoing Campgains</a></li>
+                    <li><a href="#">Updates</a> </li>
+                </ul>
+            </div>
+
+            <div class="footer__call">
+                <div class="call">
+                    <img src="./images/call.png" alt="call">
+                    <span>16519</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>

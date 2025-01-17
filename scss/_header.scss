@@ -1,0 +1,27 @@
+@import "./media";
+.header-main {
+  position: relative;
+  z-index: 1;
+  margin: 35px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  @include for-tablet-portrait-up {
+    flex-direction: row;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    @include for-tablet-portrait-up {
+      flex-direction: row;
+    }
+    &-link {
+      margin: 0px 10px;
+    }
+  }
+  &__right-elements {
+    display: flex;
+    align-items: center;
+  }
+}

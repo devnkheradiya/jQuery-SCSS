@@ -1,0 +1,88 @@
+@import "./media";
+
+.banner-wrapper {
+  height: auto;
+  position: relative;
+  z-index: 1;
+  &-main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    max-width: 1800px;
+    @include for-tablet-portrait-up {
+      flex-direction: row;
+    }
+    &__left-content {
+      width: 100%;
+      padding: 50px 0px 0px 12px;
+      @include for-tablet-portrait-up {
+      }
+      @include for-desktop-up {
+        width: 40%;
+        padding: 50px 0px 0px 100px;
+      }
+      @include for-big-desktop-up {
+        padding: 50px 0px 0px 250px;
+      }
+      &-connect {
+        margin-top: 140px;
+        display: flex;
+      }
+    }
+    &__right-content {
+      width: 100%;
+      @include for-desktop-up {
+        margin: 0px 0px 0px 30px;
+        width: 60%;
+      }
+    }
+  }
+  .bxslider-main {
+    display: none;
+    @include for-desktop-up {
+      li {
+        img {
+          max-width: 400px;
+          @include for-desktop-up {
+            max-width: 790px;
+            padding-right: 80px;
+          }
+          @include for-big-desktop-up {
+            max-width: 822px;
+            padding-right: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+.banner {
+  @include for-tablet-portrait-up {
+    position: absolute;
+    height: 690px;
+    width: 100%;
+    top: 900px;
+    z-index: 0;
+    right: 0;
+    background-color: #ffeaf5;
+  }
+  @include for-desktop-up {
+    top: 0;
+    height: 600px;
+    width: 650px;
+  }
+  @include for-big-desktop-up {
+    top: 0;
+    height: 690px;
+    width: 800px;
+  }
+}
+
+.bxslider-main .bx-controls {
+  display: none;
+  @include for-desktop-up {
+    display: block;
+  }
+}

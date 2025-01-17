@@ -1,0 +1,26 @@
+@import "./media";
+.service-content {
+  &__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-content {
+      height: 100%;
+      text-transform: uppercase;
+      font-size: 40px;
+      margin: 20px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      h4 {
+        margin: 0px;
+      }
+      img {
+        max-width: 60px;
+      }
+    }
+  }
+}

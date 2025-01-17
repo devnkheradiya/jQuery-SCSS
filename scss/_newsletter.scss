@@ -1,0 +1,31 @@
+@import "./media";
+.newsletter-wrapper {
+  margin-bottom: 80px;
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @include for-desktop-up {
+      flex-direction: row;
+    }
+    input {
+      padding: 0px 10px;
+
+      border-radius: 10px;
+      min-width: 300px;
+      outline: none;
+      border: 2px solid #676767;
+      margin: 5px;
+      min-height: 50px;
+      @include for-desktop-up {
+        margin: 0px 20px 0px 0px;
+        min-height: auto;
+      }
+      &:focus {
+        outline: none;
+        border: 2px solid #676767;
+      }
+    }
+  }
+}
