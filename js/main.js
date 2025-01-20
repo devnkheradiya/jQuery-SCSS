@@ -46,3 +46,4 @@ $(document).ready(function () {
     $(".bx-pager-link.active").css('background-color', "#ed017f");
     $(".bx-wrapper").css('max-width', "none");
 })
+
